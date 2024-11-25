@@ -9,10 +9,10 @@ This script collects and processes cryptocurrency data using APIs from Cryptoran
    - Loads API keys from `.env` file.
 
 2. **Collect Primary Data**:
-   - Fetches top 100 coins data from Cryptorank API.
+   - Fetches coins data from Cryptorank API.
 
 3. **Parse ATH Market Cap**:
-   - Extracts ATH market cap from Cryptorank website.
+   - Parse ATH market cap from Cryptorank website.
 
 4. **Get Launch Dates**:
    - Fetches launch dates from CoinMarketCap API.
